@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.thechicgeek.www.scanit.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fingerprint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_x="113dp"
+        android:layout_y="106dp"
+        android:text="Fingerprint Authentication"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <ImageView
+        android:id="@+id/fingerprint"
+        android:layout_width="119dp"
+        android:layout_height="123dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_x="129dp"
+        android:layout_y="177dp"
+        app:srcCompat="@drawable/fingerprint"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fingerprint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Place your finger." />
+</RelativeLayout>
